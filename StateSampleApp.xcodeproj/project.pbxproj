@@ -14,6 +14,8 @@
 		029CF623223BED5D009AC7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CF621223BED5D009AC7EA /* LaunchScreen.storyboard */; };
 		029CF62E223BED5E009AC7EA /* StateSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CF62D223BED5E009AC7EA /* StateSampleAppTests.swift */; };
 		029CF639223BED5E009AC7EA /* StateSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CF638223BED5E009AC7EA /* StateSampleAppUITests.swift */; };
+		029CF647223BED75009AC7EA /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CF646223BED75009AC7EA /* state.swift */; };
+		029CF64B223BFF3E009AC7EA /* InfoEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CF64A223BFF3E009AC7EA /* InfoEdit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		029CF634223BED5E009AC7EA /* StateSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		029CF638223BED5E009AC7EA /* StateSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSampleAppUITests.swift; sourceTree = "<group>"; };
 		029CF63A223BED5E009AC7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CF646223BED75009AC7EA /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
+		029CF64A223BFF3E009AC7EA /* InfoEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoEdit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				029CF618223BED5B009AC7EA /* AppDelegate.swift */,
 				029CF61A223BED5B009AC7EA /* ViewController.swift */,
+				029CF646223BED75009AC7EA /* state.swift */,
 				029CF61C223BED5B009AC7EA /* Main.storyboard */,
+				029CF64A223BFF3E009AC7EA /* InfoEdit.swift */,
 				029CF61F223BED5D009AC7EA /* Assets.xcassets */,
 				029CF621223BED5D009AC7EA /* LaunchScreen.storyboard */,
 				029CF624223BED5D009AC7EA /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				029CF61B223BED5B009AC7EA /* ViewController.swift in Sources */,
 				029CF619223BED5B009AC7EA /* AppDelegate.swift in Sources */,
+				029CF647223BED75009AC7EA /* state.swift in Sources */,
+				029CF64B223BFF3E009AC7EA /* InfoEdit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
